@@ -1,7 +1,7 @@
 require ( './root.js' );
 
 
-describe('introduction(name)', function() {
+describe('introduction(jonathan)', function() {
   it('takes in an argument of a name and returns a phrase with that name using string interpolation', function() {
     expect(introduction("Aki")).toEqual("Hi, my name is Aki.");
     expect(introduction("Samip")).toEqual("Hi, my name is Samip.");
@@ -26,3 +26,5 @@ describe('introductionWithLanguageOptional(name, language)', function() {
     expect(introductionWithLanguageOptional("Gracie", "Python")).toEqual("Hi, my name is Gracie and I am learning to program in Python.");
   })
 })
+
+
